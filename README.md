@@ -8,6 +8,8 @@ Projeto desenvolvido em Javascript, a partir dos cursos **Javascript: manipuland
 
 </div>
 
+O deploy do projeto foi realizado na Netlify, e você pode verificar [aqui](https://pomodoro-javascript.netlify.app/)
+
 ### Conhecimentos trabalhados
 - Manipulação de elementos no DOM
     - uso de seletores (querySelector, querySelectorAll, getElementsByClassName, getElementById);
