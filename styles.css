@@ -8,6 +8,8 @@
     --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
     --fundo-card: rgba(255, 255, 255, 0.50);
     --fundo-card-concludo: rgba(0, 244, 191, 0.40);
+    --font-normal: normal 1.8rem Montserrat;
+    --font-destaque: 600 1.8rem/150% Montserrat;
 }
 
 [data-contexto="foco"] {
@@ -103,16 +105,16 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     gap: 1.6rem;
 }
+.app__card-button,
+.app__card-list-label {
+    font: var(--font-normal);
+    color: var(--color-secondary);
+}
 
 .app__card-button {
-    font-family: Montserrat;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 400;
     line-height: 150%;
     background: none;
     padding: 0.8rem;
-    color: var(--color-secondary);
     border: none;
     cursor: pointer;
     outline: inherit;
@@ -136,14 +138,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.app__card-list-label {
-    color: var(--color-secondary);
-    font-family: Montserrat;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 400;
-}
-
 .app__card-primary-button-wrapper {
     display: flex;
     align-items: center;
@@ -160,15 +154,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3.2rem;
     background: var(--linear-botes);
     margin-top: 3.2rem;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%; 
+    font: var(--font-destaque);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    font-family: Montserrat;
 }
 
 .app__footer {
@@ -184,10 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 .app__footer-text {
     color: rgba(182, 182, 182, 0.8);
     text-align: center;
-    font-family: Montserrat;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 400;
+    font: var(--font-normal);
     line-height: 150%;
 }
 
@@ -216,26 +203,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .app__form-textarea,
 .app__form-textarea::placeholder {
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
+    font: var(--font-normal);
     line-height: 150%;
     white-space: nowrap;
-    font-family: Montserrat;
 }
 
 .app__section-active-task-description {
-    font-family: Montserrat;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%;
+    font: var(--font-destaque);
 }
 
 .app__section-tasks-heading {
-    font-size: 2.6rem;
-    font-style: normal;
-    font-weight: 400;
+    font: var(--font-normal);
     line-height: 120%;
 }
 
@@ -255,10 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .app__section-active-task-label {
-    font-family: Montserrat;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 400;
+    font: var(--font-normal);
     line-height: 150%;
 }
 
@@ -283,12 +258,9 @@ h1, h2, h3, h4, h5, h6 {
 .app__section-task-list-item-description {
     flex-grow: 1;
     margin: 0;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 600;
+    font: var(--font-destaque);
     line-height: 150%;
     color: var(--azul-profundo);
-    font-family: Montserrat;
 }
 
 .app__section-task-list-item-complete.app__section-task-list-item {
@@ -308,19 +280,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1.6rem;
     border-radius: 0.8rem;
     background: var(--fundo-card);
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%; 
-    font-family: Montserrat;
+    font: var(--font-destaque);
 }
 
 .app__form-label {
     color: var(--azul-profundo);
-    font-family: Unbounded;
-    font-size: 2.6rem;
-    font-style: normal;
-    font-weight: 400;
+    font: var(--font-normal);
     line-height: 120%;
     display: block;
     margin-bottom: 3.2rem;
@@ -353,11 +318,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     color: var(--azul-profundo);
-    font-family: Montserrat;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%;
+    font: var(--font-destaque);
     gap: 0.8rem;
 }
 
@@ -383,10 +344,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     margin-top: 4rem;
     padding: 1.8rem;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 150%;
+    font: var(--font-destaque);
 }
 
 .app_button-edit:disabled {
