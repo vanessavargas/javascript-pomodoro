@@ -1,22 +1,22 @@
-# Projeto Pomodoro
-Projeto desenvolvido em Javascript, a partir dos cursos **Javascript: manipulando elementos no DOM** e **Javascript na Web: armazenando dados no navegador** da Alura.
+# Pomodoro Project
+This project was developed in JavaScript, based on the Alura courses "JavaScript: Manipulating DOM Elements" and "JavaScript on the Web: Storing Data in the Browser."
 
 ## Preview
 <div align="center">
 
-![Projeto Pomodoro](./imagens/pomodoro.gif)
+![Pomodoro Project](./imagens/pomodoro.gif)
 
 </div>
 
-O deploy do projeto foi realizado na Netlify, e você pode verificar [aqui](https://pomodoro-javascript.netlify.app/)
+The project is deployed on Netlify, and you can check it out [here](https://pomodoro-javascript.netlify.app/)
 
-### Conhecimentos trabalhados
-- Manipulação de elementos no DOM
-    - uso de seletores (querySelector, querySelectorAll, getElementsByClassName, getElementById);
-- Alteração conteúdo HTML com innerHTML (textContext);
-- Adicionar áudio e manipular suas propriedades;
-- Utilizar métodos de execução de código (setInterval, clearInterval);
-- Utilização do método switch e concatenação de strings e variáveis;
-- Utilização e formatação objeto Date;
-- Manipular dados localmente no localStorage - CRUD;
-- Implementar formulário de forma dinâmica;
+### Skills Applied
+- DOM manipulation
+- Use of selectors (querySelector, querySelectorAll, getElementsByClassName, getElementById)
+- HTML content alteration with innerHTML (textContent)
+- Adding audio and manipulating its properties
+- Utilization of code execution methods (setInterval, clearInterval)
+- Use of the switch method and string and variable concatenation
+- Utilization and formatting of the Date object
+- Local data manipulation in localStorage - CRUD operations
+- Dynamic implementation of forms
